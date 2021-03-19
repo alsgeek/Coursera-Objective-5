@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="css/common.css">
   </head>
   <body ng-app="restaurant" ng-strict-di>
-    <!-- Fixed position -->
+
+    <!-- Fixed position loading indicator -->
     <loading class="loading-indicator"></loading>
 
     <header>
@@ -49,12 +50,10 @@
                 <a ui-sref="public.menu">
                   <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
               </li>
-
               <li>
                 <a ui-sref="public.myinfo">
                   <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> My Info</a>
               </li>
-              
               <li>
                <a ui-sref="public.signup">
                     <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Sign Up</a>
@@ -133,12 +132,12 @@
     <script src="src/public/menu-category/menu-category.component.js"></script>
     <script src="src/public/menu-items/menu-items.controller.js"></script>
     <script src="src/public/menu-item/menu-item.component.js"></script>
-
+    
     <script src="src/public/public.service.js"></script>
     <script src="src/public/public.signup.controller.js"></script>
     <script src="src/public/public.myinfo.controller.js"></script>
-
-
+     
+    
     <!-- ADMIN SITE -->
 
     <!--Application files -->
